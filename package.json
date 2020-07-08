@@ -1,0 +1,57 @@
+{
+  "name": "gatsby-starter-default",
+  "private": true,
+  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "version": "0.1.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.29",
+    "@fortawesome/free-solid-svg-icons": "^5.13.1",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "@types/react-helmet": "^6.0.0",
+    "cross-env": "^7.0.2",
+    "gatsby": "^2.23.10",
+    "gatsby-image": "^2.4.8",
+    "gatsby-plugin-google-gtag": "^2.1.9",
+    "gatsby-plugin-gtag": "^1.0.13",
+    "gatsby-plugin-manifest": "^2.4.13",
+    "gatsby-plugin-offline": "^3.2.12",
+    "gatsby-plugin-react-helmet": "^3.3.5",
+    "gatsby-plugin-sharp": "^2.6.13",
+    "gatsby-plugin-sitemap": "^2.4.10",
+    "gatsby-plugin-typescript": "^2.4.8",
+    "gatsby-source-filesystem": "^2.3.14",
+    "gatsby-transformer-json": "^2.4.9",
+    "gatsby-transformer-sharp": "^2.5.6",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "gatsby-plugin-scss-typescript": "^4.0.13",
+    "node-sass": "^4.14.1",
+    "prettier": "2.0.5"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "b": "gatsby build",
+    "d": "gatsby develop",
+    "dp": "cross-env GATSBY_GRAPHQL_IDE=playground gatsby develop",
+    "f": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "s": "gatsby serve",
+    "start": "npm run develop",
+    "c": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
