@@ -64,13 +64,6 @@ module.exports = {
         path: `${__dirname}/static/images`,
       },
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `content-json`,
-        path: `${__dirname}/src/content`,
-      },
-    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
